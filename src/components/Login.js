@@ -11,7 +11,7 @@ const Login = () => {
         <input className='flex border px-4 py-2 rounded-lg m-2 w-4/5 justify-center' type="email" placeholder='Email' required />
         <input className='flex border px-4 py-2 rounded-lg m-2 w-4/5 justify-center' type="password" placeholder='Password' required />
         <p className='flex justify-end text-sm text-blue-600 cursor-pointer mx-4'>Forgot password ?</p>
-        <buton className="btn flex mx-auto my-4 rounded-lg border w-fit px-4 py-1 font-semibold cursor-pointer">Log In</buton>
+        <button className="btn flex mx-auto my-4 rounded-lg border w-fit px-4 py-1 font-semibold cursor-pointer">Log In</button>
         <p className='flex justify-center text-sm'>Don't have an account ? <Link to="/"><span className='flex justify-end text-sm text-blue-600 cursor-pointer'>&nbsp; Sign Up</span></Link></p>
     </form>
     <p className='border-b text-center mt-6'>Or</p>
