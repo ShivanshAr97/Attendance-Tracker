@@ -1,9 +1,16 @@
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Login from './components/Login';
+import Register from './components/Register'
 
 function App() {
   return (
     <>
-    <h1 className='bg-yellow-600'>Lorem ipsum dolor sit.</h1>
+      <Routes>
+        <Route path='/login' element={<Login />} />
+        <Route path='/' element={<Register />} />
+      </Routes>
+
     </>
   );
 }
