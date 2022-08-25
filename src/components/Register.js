@@ -2,10 +2,12 @@ import React from 'react'
 import Logo from '../images/logo.png'
 import { Link } from 'react-router-dom'
 
-const Login = () => {
+
+const Register = () => {
+
   return (
     <>
-    <img src={Logo} width={100} className=" flex mx-auto my-4" alt="" />
+    <img src={Logo} width={150} className=" flex mx-auto my-4" alt="" />
     <h1 className='flex justify-center font-bold text-3xl my-6'>Register with Us</h1>
     <form action="">
         <input className='flex border px-4 py-2 rounded-lg m-2 w-4/5 justify-center' type="text" placeholder='Username' required />
@@ -19,4 +21,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Register

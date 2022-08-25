@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Login = () => {
   return (
     <>
-    <img src={Logo} width={100} className=" flex mx-auto my-4" alt="" />
+    <img src={Logo} width={150} className=" flex mx-auto my-4" alt="" />
     <h1 className='flex justify-center font-bold text-3xl my-6'>Welcome back 😉</h1>
     <form action="">
         <input className='flex border px-4 py-2 rounded-lg m-2 w-4/5 justify-center' type="email" placeholder='Email' required />
