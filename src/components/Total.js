@@ -21,7 +21,7 @@ const Total = () => {
                         <span className='px-1.5'><AiFillSetting /></span>
                     </div>
                 </div>
-                <div className='mx-4 w-1/3'>
+                <div className='m-4 w-1/3'>
                     <PieChart 
                         data={[
                             { label: 'kejeg', value: 10, color: 'blue' },

@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlineUser, AiOutlineInfoCircle } from "react-icons/ai";
 import { Link } from 'react-router-dom';
-import Logo from "../images/logo.png"
+import Logo from "../images/logo2.png"
 
 const Navbar = () => {
   return (

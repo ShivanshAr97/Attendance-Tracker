@@ -11,7 +11,7 @@ const Subject = () => {
         <h3 className='mx-4 my-2'>Enter the subjects you want to track attendance for by clicking "Add Subject":</h3>
         <div className=''>
           <Link to="/addsub">
-          <button className="bottom-0 fixed btn my-4 border rounded-lg px-4 py-1 right-1/2 font-semibold">Add Subject</button>
+          <button className="bottom-0 fixed btn my-4 border rounded-lg px-4 py-1 right-1/3 font-semibold">Add Subject</button>
           </Link>
         </div>
       </div>
