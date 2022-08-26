@@ -14,7 +14,7 @@ const AddSubject = () => {
                     <input className=' border rounded-lg mx-2 my-1 px-2 py-1 ' type="number" placeholder='Present initially' />
                 </div>
 
-                <div className='flex justify-center'>
+                <div className='flex justify-center my-4'>
                     <Link to="/sub">
                         <button className="btn m-2 border rounded-lg px-4 py-1.5">Cancel</button>
                     </Link>
