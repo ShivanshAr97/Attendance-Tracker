@@ -7,6 +7,7 @@ import AddSubject from './components/AddSubject';
 import NewSubject from './components/NewSubject';
 import Total from './components/Total';
 import About from './components/About';
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/newsub' element={<NewSubject />} />
         <Route path='/total' element={<Total />} />
         <Route path='/about' element={<About />} />
+        <Route path='/profile' element={<Profile />} />
 
       </Routes>
     </>
