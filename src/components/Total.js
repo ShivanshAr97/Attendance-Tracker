@@ -22,7 +22,7 @@ const Total = () => {
                     </div>
                 </div>
                 <div className='m-4 w-1/3'>
-                    <PieChart 
+                    <PieChart
                         data={[
                             { label: 'kejeg', value: 10, color: 'blue' },
                             { label: 'Two', value: 15, color: '#C13C37' },
@@ -32,7 +32,50 @@ const Total = () => {
                 </div>
             </div>
             <Link to="/sub">
-            <button className="btn rounded-lg border px-4 py-2 my-4 flex mx-auto cursor-pointer">Add Subject</button></Link>
+                <button className="btn rounded-lg border px-4 py-2 my-2 mb-4 flex mx-auto cursor-pointer">Add Subject</button></Link>
+
+                <div className='bg-gray-200 p-3 my-2 flex'>
+                <div className='w-2/3'>
+                    <p className='font-bold'>Computer Science</p>
+                    <div className='flex justify-between align-middle'>
+                        <div className='flex text-xs mt-0.5 mb-1.5'>
+                            Attendance:<span className='font-bold'>&nbsp; 9/12</span>
+                        </div>
+                    </div>
+                </div>
+                <div className='w-1/3 text-sm'>
+                    Lorem ipsum dolor sit amet.
+                </div>
+            </div>
+
+            <div className='bg-gray-200 p-3 my-2 flex'>
+                <div className='w-2/3'>
+                    <p className='font-bold'>Environmental Studies</p>
+                    <div className='flex justify-between align-middle'>
+                        <div className='flex text-xs mt-0.5 mb-1.5'>
+                            Attendance:<span className='font-bold'>&nbsp; 4/10</span>
+                        </div>
+                    </div>
+                </div>
+                <div className='w-1/3 text-sm'>
+                    Lorem ipsum dolor sit amet.
+                </div>
+            </div>
+
+            <div className='bg-gray-200 p-3 my-2 flex'>
+                <div className='w-2/3'>
+                    <p className='font-bold'>Applied Physics</p>
+                    <div className='flex justify-between align-middle'>
+                        <div className='flex text-xs mt-0.5 mb-1.5'>
+                            Attendance:<span className='font-bold'>&nbsp; 12/14</span>
+                        </div>
+                    </div>
+                </div>
+                <div className='w-1/3 text-sm'>
+                    Lorem ipsum dolor sit amet.
+                </div>
+            </div>
+
         </>
     )
 }
