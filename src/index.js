@@ -5,6 +5,24 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
+
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCVBl8iDyQ3r67lkwxPL8WHRv4Y2qEo8_s",
+  authDomain: "track-frontend.firebaseapp.com",
+  projectId: "track-frontend",
+  storageBucket: "track-frontend.appspot.com",
+  messagingSenderId: "733415636251",
+  appId: "1:733415636251:web:036e71b8859a25e1df27be",
+  measurementId: "G-GPY0NG55CQ"
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
